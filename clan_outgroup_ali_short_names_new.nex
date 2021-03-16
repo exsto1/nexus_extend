@@ -1,10 +1,10 @@
-#NEXUS?
-?
-BEGIN DATA;?
+#NEXUS
+
+BEGIN DATA;
 DIMENSIONS  NTAX=207 NCHAR=73;
-FORMAT datatype=mixed(PROTEIN:1-72,continuous:73) interleave=yes gap=- missing=?;
-MATRIX?
-?
+FORMAT datatype=mixed(PROTEIN:1-72,Standard:73) interleave=yes gap=- missing=?;
+MATRIX
+
 PF01402_0    -------------RVELKINGEAVDILNSLA----E-Q--NI-SRSELIEQM---LLAQLAE----------8
 PF01402_1    -------------RVELKLNADAVDALNELA----Q-V--NM-SRSELIEEM---LMAQLDN----------8
 PF01402_2    -------------RLTLLIDPNA---LERLC----A-QL-DL-TVSQVVRQL---IRDYLAQ----------8
@@ -212,23 +212,23 @@ PF13443_0    ------------------M-KK--GEL---RE------AVGV-SKSTFAKLGK-N-E----------
 PF13443_1    ------------------IWSG--AAL---ARLMKEKAGYSL-SAASISALLT-N-Q---------------?
 PF13443_2    ------------------VWTG--TEL---RRLLSERAGLEL-SAASVSALFT-K-E---------------?
 PF13443_3    ------------------IWKA--SEM---QQLL-AEHGLVI-SAGKMSGLWS-G-Q---------------?
-;?
-?
-END;?
-?
-BEGIN ASSUMPTIONS;?
-EXSET * UNTITLED  = ;?
-END;?
-?
-BEGIN CODONS;?
-CODONPOSSET * CodonPositions =?
- N:,?
- 1: 1-70\3,?
- 2: 2-71\3,?
- 3: 3-72\3;?
-CODESET  * UNTITLED = Universal: all ;?
-END;?
-?
-BEGIN SETS;?
-END;?
-?
+;
+
+END;
+
+BEGIN ASSUMPTIONS;
+EXSET * UNTITLED  = ;
+END;
+
+BEGIN CODONS;
+CODONPOSSET * CodonPositions =
+ N:,
+ 1: 1-70\3,
+ 2: 2-71\3,
+ 3: 3-72\3;
+CODESET  * UNTITLED = Universal: all ;
+END;
+
+BEGIN SETS;
+END;
+

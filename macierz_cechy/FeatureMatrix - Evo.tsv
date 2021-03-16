@@ -6,9 +6,9 @@ DndE	PF08870_2&4 Knotted	6	sekwencja krótsza, mniej ciągła						8	- regulacja
 DndE	PF08870_5-8 Knotted	6	sekwencja krótsza, mniej ciągła						9	- system TA
 DUF2540	PF10802_gr1 Knotted	?	białko hipotetyczne, struktura RHH dobrze widoczna, nie znalazłam znanych białek Methanococci wiążących DNA o podobnej strukturze						7	- cięcie DNA, procesowanie
 DUF2540	PF10802_gr2 Knotted	?							6	- chemiczna modyfikacja DNA
-MetJ	PF01340	8	udowodnione wiązanie z DNA, regulacja 8 jednostek transkrypcyjnych odpowiadających za dyntezę metioniny							
-CopG	PF01402	8	pewne wiązanie z DNA, regulacja transkrypcji Rep plazmidu Streptococcus, oligomeryzacja, ugięcie DNA							
-VAPB_antitox	PF02697	9	prawdopodobnie antytoksyny systemów TA, nie ma rozwiązanej struktury							
+MetJ	PF01340	8	udowodnione wiązanie z DNA, regulacja 8 jednostek transkrypcyjnych odpowiadających za dyntezę metioniny						5	- system partycyjny
+CopG	PF01402	8	pewne wiązanie z DNA, regulacja transkrypcji Rep plazmidu Streptococcus, oligomeryzacja, ugięcie DNA						4	- regulacja replikacji
+VAPB_antitox	PF02697	9	prawdopodobnie antytoksyny systemów TA, nie ma rozwiązanej struktury						3	- organizacja strukturana chromatyny
 ParD_antitoxin	PF03693_1&4	9	antytoksyny systemów TA, RHH - odpowiada za odziaływanie z DNA i dimeryzację							
 ParD_antitoxin	PF03693_2&3	9								
 Arc	PF03869_1&2	8	białko represora bakteriofaga P22, wiąże się z operatorem, regulacja przejścia z cyklu lizogennego na lityczny							
@@ -18,26 +18,26 @@ TraM	PF05261	7	udział w koniugacji, wiązanie w oriT
 TraY	PF05509	7	udział w koniugacji, nikaza							
 HicB	PF05534	9	antytoksyna systemu TA HicAB, nierozwiązana struktura							
 CcdA	PF07362	9								
-	PF07704									
-	PF07764									
-	PF07878_1&3									
-	PF07878_2&4									
-	PF08681									
-	PF09274									
-	PF09386									
-	PF09957									
-	PF10723									
-	PF11020									
-	PF11903									
-	PF12441									
-	PF12651									
-	PF13467									
-	PF14384									
-	PF15919									
-	PF16762									
-	PF16777									
-	PF17206									
-	PF17414									
-	PF17723									
-	PF01381 HTH_26 Outgroup									
-	PF13443 HTH_3 Outgroup									
+PSK_trans_fac	PF07704	8								
+Omega_Repress	PF07764	8								
+RHH_5	PF07878_1&3	9								
+RHH_5	PF07878_2&4	9								
+DUF1778	PF08681	?								
+ParG	PF09274	5								
+ParD	PF09386	9								
+VapB_antitoxin	PF09957	9								
+RepB-RCR_reg	PF10723	4								
+DUF2610	PF11020	?								
+ParD_like	PF11903	9								
+CopG_antitoxin	PF12441	9								
+RHH_3	PF12651	?								
+RHH_4	PF13467	?								
+BrnA_antitoxin	PF14384	9								
+HicB_lk_antitox	PF15919	9								
+RHH_6	PF16762	9								
+RHH_7	PF16777	8								
+SeqA_N	PF17206	4								
+MatP_C	PF17414	3								
+RHH_8	PF17723	8								
+HTH_3	PF01381 HTH_26 Outgroup	8								
+HTH_26	PF13443 HTH_3 Outgroup	8								
